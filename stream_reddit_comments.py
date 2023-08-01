@@ -4,8 +4,8 @@ from kafka import KafkaProducer
 # PRAW setup and extracting the comments from the selected subreddit
 # Need to have your own reddit account and create an app to get values to fill fields below
 reddit = praw.Reddit(
-	client_id="g_RtMDfoPTNoGbebBROk8Q",
-	client_secret="W-G1v3hqfCKSScQpTCTC4Et9BpNEIg",
+	client_id="your client id",
+	client_secret="your client secret",
 	password="yourpassword",
 	user_agent = "whatever",
 	username="yourusername",
