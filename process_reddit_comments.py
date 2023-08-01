@@ -7,6 +7,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
 from pyspark.sql.types import StructType, StructField, StringType
 
+# Filter out named entities and keep count of them in the comments being processed in topic 1 connvert to json format for ELK
 # Function to get named entities from comments using spaCy
 def get_named_entities(comment):
     doc = nlp(comment)
