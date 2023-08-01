@@ -7,7 +7,7 @@ Assumed steps already completed before hand are:
 
 WARNING: If streaming from a popular subreddit you will need a decent amount of RAM availability if on local or local VM and not some cloud-based cluster like AWS
 
-# Steps begin here
+# Walkthrough begins here
 For the steps below involving kafka run after cd $KAFKA_HOME or cd to kafka folder location 
 
 1. Start ZOOKEEPER IN ITS OWN TERMINAL:
